@@ -1,0 +1,61 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(kiii.png);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #766672;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#app {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    border-radius: 15px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+button {
+    padding: 8px 12px;
+    font-size: 16px;
+    cursor: pointer;
+    border: #766672;
+    border-radius: 15px;
+}
+
+button:hover{
+    color: #766672;
+    background-color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.delete-btn {
+    margin-left: 10px;
+    cursor: pointer;
+    color: red;
+}
